@@ -5,29 +5,66 @@ body {
     
 }
 
-#page{
-    min-width: 720px;
-    background-color: white;
-    margin: 10%;
-    padding: 40px;
-    
-}
-#main-name {
-    color: firebrick;
+h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
-@media(min-width:1280px){
-    #page{
-        background-color: transparent;
-        margin: auto;
-        }
-    .card{
-        display: inline-block;
-        background-color:whitesmoke;
-        padding: 5px;
-        border: solid 1px black;
-        width: 300px;
-        
-    }
+li {
+    line-height: 2em;
+    font-size: 0.8em;
+}
+span{
+    
+    padding: 0.2em;
+}
+
+#page{
+    background-color: white;
+    padding: 1em;
+    min-width: 250px;
+}
+
+#main-name {
+    color: rgb(143, 18, 18);
+    text-align: center;
+}
+
+.card{
+    flex: 1;
+    /* border: 1px solid blue; */
+
+}
+
+#mobile, #address, #email {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+.employer,
+.role,
+.duration {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 1.2em;
+    color: green;  
+}
+.job .logo{
+    max-width: 300px;
+    display:block;
+    margin: 10px auto;
+}
+    
+.logo img {
+    width: 100%;
+    padding: 80px 0 20px;
+}
+.logo svg {
+    padding: 80px 0 20px 0;
+
+}
+.job#bobtrade .logo img{
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+
 }
