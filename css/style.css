@@ -156,7 +156,7 @@ span {
   }
   .wrapper {
     display: flex;
-    flex-basis: 33%;
+    flex-basis: 50%;
     flex-direction: column;
   }
   #title.card {
