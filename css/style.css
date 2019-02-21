@@ -120,7 +120,6 @@ span {
   #page {
     padding: 20px;
     -webkit-box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
     box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
   }
 }
@@ -135,7 +134,7 @@ span {
   #mobile,
   #address,
   #email {
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
   .card,
   .job {
@@ -143,7 +142,6 @@ span {
     background-color: white;
     margin: 0 2% 2%;
     -webkit-box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
     box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
   }
   .big-wrapper {
@@ -154,20 +152,50 @@ span {
     color: white;
   }
   #outer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     width: 80%;
   }
   .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   #title.card {
     background: none;
     border: none;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
+  }
+
+  #contact-details {
+    color: white;
+    width: 50%;
+    max-width: 600px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: none;
+    position: relative;
+    top: -15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0 auto;
+  }
+  #contact-details a {
+    color: rgba(187, 190, 100, 1);
+    font-size: 1.337rem;
+  }
+  #contact-details p {
+    margin: 0;
+  }
+  #contact-details p:first-of-type {
+    margin-top: 10px;
   }
 }
