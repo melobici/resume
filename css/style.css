@@ -137,7 +137,8 @@ span {
   #email {
     padding-top: 10px;
   }
-  .card {
+  .card,
+  .job {
     /* border: 1px solid blue; */
     background-color: white;
     margin: 0 2% 2%;
@@ -145,9 +146,12 @@ span {
     -moz-box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
     box-shadow: -1px 11px 25px -2px rgba(0, 0, 0, 0.25);
   }
-  .exp-card {
+  .big-wrapper {
     width: 100%;
     max-width: 600px;
+  }
+  .big-wrapper h2.exp-title {
+    color: white;
   }
   #outer-wrapper {
     display: flex;
